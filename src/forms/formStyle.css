@@ -1,0 +1,156 @@
+.home-container {
+    padding: 20px;
+  }
+  
+  .navContainer {
+    width: 100%;
+    background-color: rgb(214, 110, 110);
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  .navLinkName {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .navLinkName:hover {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .form-container {
+    text-align: none;
+    padding: 15px;
+    margin-left: 30%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .genderButton {
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(243, 243, 224);
+    color: grey;
+    border: none;
+    font-weight: 500;
+  }
+  
+  .genderButton:hover {
+    padding: 8px;
+    background-color: burlywood;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .genderSelected{
+    border-radius: 5px;
+    width: 100px;
+    margin: 15px;
+    border: none;
+    font-weight: 500;
+    padding: 8px;
+    background-color: burlywood;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .nextBtn {
+    width: 100%;
+    padding: 15px;
+    margin: 5px;
+    color: white;
+    background-color: orange;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .nextBtn:hover {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    border: 1px solid gray;
+    cursor: pointer;
+  }
+  
+  .formStyle {
+    padding: 30px;
+    background-color: #fafafa;
+    border-radius: 18px;
+  }
+  
+  .company-form-container {
+    width: 30%;
+    margin-top: 30px;
+  }
+  
+  .backBtn {
+    color: black;
+    background-color: gray;
+    width: 120px;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .sendOTPBbtn {
+    width: 100%;
+    background-color: orange;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    margin: 5px;
+  }
+  
+  .sendOTPBbtnDisabled {
+    background-color: rgb(253, 237, 207);
+    color: grey;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    margin: 5px;
+  }
+  .otpInput {
+    width: 65px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 65px;
+    text-decoration: none;
+    margin: 10px;
+    appearance: none;
+    padding: 20px;
+    font-weight: 800;
+  }
+  
+  .otpInput:focus {
+    border: none;
+  }
+  
+  .otpInput:hover {
+    border: 1px solid black;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  @media (min-width: 90px) and (max-width:1200px){
+    .company-form-container {
+     width: 55% !important;
+    }
+  }
