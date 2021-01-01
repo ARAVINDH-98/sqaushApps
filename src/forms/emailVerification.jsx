@@ -22,7 +22,7 @@ export default class emailVerification extends Component {
     const Email = localStorage.getItem('Email');
     const Experience = localStorage.getItem('Experience');
     const JobTitle = localStorage.getItem('Job Title');
-    if(CompanyName && Email && Experience && JobTitle){
+    if(CompanyName && Email && Experience && JobTitle){ 
       this.setState({removeAlert:true});
     }
   }
